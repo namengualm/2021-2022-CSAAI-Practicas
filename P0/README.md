@@ -7,3 +7,6 @@ Probando el VSCode...
 ***********************
 
 Tercer cambio
+
+
+![](Ejercicio2-img1.gif)
