@@ -1,1 +1,7 @@
-/* Esto es un comentario en CSS *\ 
+/* Esto es un comentario en CSS */
+
+
+body {
+  background-color: lightblue;
+  color: blue;
+}
