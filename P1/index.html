@@ -4,52 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae - CV</title>
+    <title>Curriculum Vitae -- Noelia Amengual</title>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+
+    <div id="Encabezado">
     <h1>CURRICULUM VITAE</h1>
-    <img src="Imagen.jpg" alt="Imagen: Foto">
-    <h2>Datos Personales</h2>
-    <ul>
-        <li>NOMBRE: Noelia Amengual</li>
-        <li>EDAD: 23 Años </li>
-        <li>CONTACTO: 6524.....</li>
-        <li>DISPONIBILIDAD: Mallorca - Madrid</li>
-    </ul>
+    </div>
+   
+    <table id="Tabla--General">
 
-    <h2>Sobre Mí</h2>
-    <P>Me considero una chica ambiciosa, con ganas de aprender y superarse con cada cosa. </P>
+        <tr id="Fila--Foto">
 
-    <h2>Estudios</h2>
-    <ul>
-        <li>Grado Medio de Técnico de Instalaciones de Telecomunicaciones.</li>
-        <li>Grado Superior de Realización de proyectos Audiovisuales y Espectádulos </li>
-        <li>Grado en Ingeniria de Sistemas Audiovusles y Multimedia - URJC</li>
-        <p>
-            <a href="https://www.urjc.es/universidad/calidad/637-ingenieria-en-sistemas-audiovisuales-y-multimedia"> Página URJC</a>
-        </p>
-    </ul>
+            <td id="Tabla--Foto">
+                 <img id="Foto" src="Imagen.jpg" alt="Imagen: Foto">
+            </td>
+        </tr>
+       
 
-    <h2>Experiencia personal</h2>
-    <Ol>
-        <li>Prácticas en Instalaciones de Fibra Óptica</li>
-        <li>Prácticas de Cámara y Realización de Informativo territorial en RTVE</li>
-        <li>Cajera y Reponedora en Supermercados Eroski </li>
-    </Ol>
-    
-    <h2>Datos de interés</h2>
-    <ul>
-        <li>Carnet de conducir B (Vehículo Propio)</li>
+        <tr id="Fila--Info">
+           
+            <table id="Tabla--DatosMi">
 
-        <table>
+                <td id="Tabla--Datos">
+                    <h2>Datos Personales</h2>
+                    <ul>
+                        <li>NOMBRE: Noelia Amengual</li>
+                        <li>EDAD: 23 Años </li>
+                        <li>CONTACTO: 6524.....</li>
+                        <li>DISPONIBILIDAD: Mallorca - Madrid</li>
+                    </ul>
+                </td>
+               
+                <td id="Tabla--SobreMi">
+                    <h2>Sobre Mí</h2>
+                    <P>Me considero una chica ambiciosa, con ganas de aprender y superarse con cada cosa. </P>
+                
+                </td>
 
-            <li>Idiomas:</li>
-            <th>
-                <td>Castellano</td>
-                <td>Catalán</td>
-                <td>Inglés</td>
-            </th>
-        </table>
-    </ul>
+            </table>
+        </tr>
+        
+
+        <tr id="Fila--Trayectoria">
+
+            <table id="Tabla--Trayectoria">
+
+                <td id="Tabla--Estudios">
+                    <h2>Estudios</h2>
+                    <ul>
+                        <li>Grado Medio de Técnico de Instalaciones de Telecomunicaciones.</li>
+                        <br>
+                        <li>Grado Superior de Realización de proyectos Audiovisuales y Espectádulos </li>
+                        <br>
+                        <li>Grado en Ingeniria de Sistemas Audiovusles y Multimedia - URJC</li>
+                        <p>
+                            <a href="https://www.urjc.es/universidad/calidad/637-ingenieria-en-sistemas-audiovisuales-y-multimedia"> Página web Grado - URJC</a>
+                        </p>
+                    </ul>
+                </td>
+
+                <td id="Tabla--Experiencia">
+                    <h2>Experiencia personal</h2>
+                    
+                    <Ol>
+                        <li>Prácticas en Instalaciones de Fibra Óptica</li>
+                        <br>
+                        <li>Prácticas de Cámara y Realización de Informativo territorial en RTVE Baleares</li>
+                        <br>
+                        <li>Cajera y Reponedora en Supermercados Eroski </li>
+                        <p>
+                            <a href="https://www.rtve.es/"> Página web RTVE</a>
+                        </p>
+                    </Ol>
+                </td>
+            </table>
+        </tr>
+
+        <tr id="Fila--Interes">
+
+            <table id="InteresCancion">
+
+                <td id="Tabla--Interes">
+                    <h2>Datos de interés</h2>
+                    <ul>
+                        <li>Carnet de conducir B (Vehículo Propio)</li>
+                        <br>
+                        <table>
+                
+                            <li>Idiomas:</li>
+                            <th>
+                                <td>Castellano</td>
+                                <td>Catalán</td>
+                                <td>Inglés</td>
+                            </th>
+                        </table>
+                    </ul>
+                </td>
+                
+                <td>
+                <table id="Tabla--Audio">
+                    <td>
+                        <h2>Canción Favorita</h2>
+                        <p>
+                            Shouse - Love Tonigh
+                        </p>
+                
+                    <audio controls autoplay loop src="Shouse - Love Tonight (Radio Edit).m4a" type="audio/m4a"></audio>
+                    </td>
+                </table>
+                </td>
+                
+            </table>
+            
+        </tr>
+
+    </table>
 </body>
 </html>
