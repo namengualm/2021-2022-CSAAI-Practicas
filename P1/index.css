@@ -46,7 +46,8 @@ body {
 #Foto{
     border: 4px solid black;
     margin: 0%;
-    width: 100%;
+    width: 400px;
+    height: 400px;
     text-align: center;
     vertical-align: 0%;
   
@@ -78,7 +79,7 @@ body {
     margin: 5px;
     border: solid;
     border-color: lightseagreen;
-    width: 750%;
+    width: 750px;
 
 }
 
@@ -91,7 +92,7 @@ body {
     margin: 5px;
     border: solid;
     border-color: lightseagreen;
-    width: 800%;
+    width: 750px;
 
 }
 
@@ -149,7 +150,7 @@ body {
     color: black;
     font-size: 15px;
     padding: 2px;
-    margin-left: 500px;
+    margin-left: 350px;
     border: solid;
     border-color: black;
 
@@ -170,9 +171,20 @@ body {
 
     color: black;
     font-size: 15px;
-    padding: 10px;
-    margin: 5px;
+    height: 195px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
     border: solid;
+    border-left-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-right-width: 3px;
     border-color: lightseagreen;
     text-align: center;
 
