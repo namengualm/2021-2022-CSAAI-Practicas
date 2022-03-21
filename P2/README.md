@@ -1,6 +1,7 @@
- # Práctica 2
+ # Práctica 2 - Manual de usuario básico y mejoras de una CALCULADORA
 
-Hola! En la Práctica 2 de la asignatura de Construcción de Servicios y Aplicaciones Audiovisuales en Internet, vamos a crear una CALCULADORA mediante el uso de scrips de HTML, CSS y Javascrip.
+
+Hola nuevo usuario! En la Práctica 2 de la asignatura de Construcción de Servicios y Aplicaciones Audiovisuales en Internet, vamos a crear una CALCULADORA mediante el uso de scrips de HTML, CSS y Javascrip.
 
 En su funcionamiento podrás realizar las funciones básicas como: Sumar, Restar, Multiplicar y Dividir. 
 
