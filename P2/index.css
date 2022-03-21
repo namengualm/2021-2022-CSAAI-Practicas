@@ -1,0 +1,95 @@
+.Calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: coral;
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+}
+ 
+.digito{
+    display: block;
+    font-size: 25px;
+}
+
+.operacion{
+    display: block;
+    font-size: 25px;
+}
+
+button{
+    width: 60px;
+    height: 40px;
+}
+
+#display{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+    background-color: white;
+    width: 355px;
+    height: 100px;
+    line-height: 75px;    
+}
+
+#porcentaje{
+    display: block;
+    font-size: 25px;   
+}
+
+#parentesis_izq{
+    display: block;
+    font-size: 25px;   
+}
+
+#parentesis_dcha{
+    display: block;
+    font-size: 25px;    
+}
+
+#raiz_cuadrada{
+    display: block;
+    font-size: 25px;
+}
+
+#exponente{
+    display: block;
+    font-size: 25px;
+}
+
+#clear{
+    display: block;
+    font-size: 25px; 
+    background-color: blue;
+    color: white;
+}
+
+#clear_all{
+    display: block;
+    font-size: 25px;
+    background-color: blue; 
+    color: white;
+}
+
+#punto{
+    display: block;
+    font-size: 25px;
+    text-align: center; 
+}
+
+#numero_pi{
+    display: block;
+    font-size: 25px;
+}
+
+#ans{
+    display: block;
+    font-size: 25px;
+}
+
+#igual{
+    display: block;
+    font-size: 25px;
+}

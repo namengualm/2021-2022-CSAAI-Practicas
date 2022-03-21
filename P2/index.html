@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2 -- Calculadora</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <table class="Calculadora">
+        <tr>
+            <td colspan="5">
+                <p id="display"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button id="porcentaje" value="*0.01">%</button>
+            </td>
+            <td>
+                <button id="parentesis_izq" value="(">(</button>
+            </td>
+            <td>
+                <button id="parentesis_dcha" value=")">)</button>
+            </td> 
+            <td>
+                <button id="raiz_cuadrada">sqrt</button>
+            </td>
+            <td>
+                <button id="exponente" value="**">^</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button value="7" class="digito">7</button>
+            </td>
+            <td>
+                <button value="8" class="digito">8</button>
+            </td>
+            <td>
+                <button value="9" class="digito">9</button>
+            </td> 
+            <td>
+                <button id="clear" value="DEL">DEL</button>
+            </td>
+            <td>
+                <button id="clear_all" value="AC">AC</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button value="4" class="digito">4</button>
+            </td>
+            <td>
+                <button value="5" class="digito">5</button>
+            </td>
+            <td>
+                <button value="6" class="digito">6</button>
+            </td> 
+            <td>
+                <button id="multiplicacion" value="*" class="operacion">X</button>
+            </td>
+            <td>
+                <button id="division" value="/" class="operacion">÷</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button value="1" class="digito">1</button>
+            </td>
+            <td>
+                <button value="2" class="digito">2</button>
+            </td>
+            <td>
+                <button value="3" class="digito">3</button>
+            </td> 
+            <td>
+                <button id="suma" value="+" class="operacion">+</button>
+            </td>
+            <td>
+                <button id="resta" value="-" class="operacion">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button value="0" class="digito">0</button>
+            </td>
+            <td>
+                <button id="punto" value=".">·</button>
+            </td>
+            <td>
+                <button id="numero_pi" value="3.141592654">π</button>
+            </td> 
+            <td>
+                <button id="ans">ANS</button>
+            </td>
+            <td>
+                <button id="igual">=</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
