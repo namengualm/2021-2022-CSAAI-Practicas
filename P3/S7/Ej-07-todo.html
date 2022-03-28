@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 7 -- TODO</title>
+    <script src="Ejemplo_7.js" defer></script>
+</head>
+<body> 
+    <h3>Tipo de Botón</h3>
+    <p><input type="button" value="Boton" id="button"><span id="button-test">Test</span></p>
+    
+    <h3>Tipo Checkbox</h3>
+    <p><span id="c1_test">c1</span><input type="checkbox" id="checkbox1">
+       <span id="c2_test">c2</span><input type="checkbox" id="checkbox2">
+    </p>
+    
+    <h3>Tipo Radio</h3>
+    <p>
+        b1 <input type="radio" name="grupo1" value="1" id="radio1" checked>
+        b2 <input type="radio" name="grupo2" value="2" id="radio2">
+        b3 <input type="radio" name="grupo3" value="3" id="radio3">
+        b4 <input type="radio" name="grupo4" value="4" id="radio4">
+    </p>
+
+    <p id="radio_display"></p>
+    <hr>
+    <h2>Ej-2: Entradas de texto</h2>
+    <hr>
+    
+    <h3>Normal</h3>
+    <p>Text <input type="text" id="text1"><span id="text1_disp"></span></p>
+    <p>Text <input type="text" id="text2" maxlength="10" placeholder="Max. 10 Caracteres"><span id="text2_disp"></span></p>
+
+    <p>
+        Text
+        <input type="text" id="text3" list="items" placeholder="Con valores predefinidos...">
+        <span id="text3_disp"></span>
+        <!-- Lista de Opciones -->
+        <datalist id="items">
+            <option value="1">Opción 1</option>
+            <option value="2">Opción 2</option>
+            <option value="3">Opción 3</option>
+        </datalist>
+    </p>
+
+    <h3>Objetos Ocultos</h3>
+    <p>Password 
+        <input type="password" maxlength="10" id="pssw">
+        <span id="passw_display"></span>
+    </p>
+    <hr>
+    <h3>Caja de texto</h3>
+    <p>Number <input type="number" id="num1"> <span id="num1_disp"></span></p>
+    <h3>Deslizador</h3>
+    <p>Range <input type="range" id="range"> <span id="range_disp"></span> Valor Final: <span id="tange_disp2"></span> </p>
+    <hr>
+    <p>Pulsa la tecla "ESPACIO"</p>
+    <hr>
+    <p>Pulsa la tecla "ESPACIO"</p>
+    <p id="display"></p>
+    <hr>
+    <p>Prueba de Sonidos</p>
+    <input type="button" id="click" value="Click">
+    <input type="button" id="what" value="What">
+
+</body>
+</html>
