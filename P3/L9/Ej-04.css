@@ -1,0 +1,26 @@
+body{
+    background-color: rgba(112, 31, 31, 0.63);
+    zoom: 63%;
+}
+h2{
+    font-size: 50px;
+    text-shadow: 2px 2px red;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    padding-left: 300px;
+}
+canvas {
+    background-image: url("Particles.gif");
+    background-size: cover;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgba(251, 251, 251, 0.623);
+    border-radius: 5px;
+}
+pre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px red;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+}
