@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Práctica 4 - Filtrado de Imagenes</title>
+</head>
+<body>
+    <div>
+        <img id="Mapa_1" src="palma.png" alt="Mapa Palma">
+        <img id="Mapa_2" src="Soller.jpg" alt="Mapa Soller">
+    </div>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <h2 id="titulo1">Catedral de Palma</h2>
+                <button id="sel1">Seleccionar Imagen Original 1</button>
+                <a href="https://www.conselldemallorca.cat/es/" id="url">Consell Balear</a>
+                <a href="https://catedraldemallorca.org/es/" id="url">Catedral de Palma de Mallorca</a>
+                <p>
+                    <img id="imagen1" src="imagen2.jpeg" alt="Catedral de Palma">
+                </p>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td>
+                <h2 id="titulo2">Pueblo de Soller</h2>
+                <button id="sel2">Seleccionar Imagen Original 2</button>
+                <a href="https://trendesoller.com/index" id="url">Tren de Soller</a>
+                <a href="https://www.barcelo.com/guia-turismo/es/espana/mallorca/que-ver/soller/" id="url">Que ver en Soller</a>
+                <p>
+                    <img id="imagen2" src="imagen.jpeg" alt="Pueblo de Soller">
+                </p>
+            </td>
+
+        </tr>
+    </table>
+    <hr>
+    <hr>
+    <table>
+        <tr>
+            <td>
+                <canvas id="canvas"></canvas>
+                <br>
+                <br>
+                <button id="color">COLORES</button>
+                <button id="grises">E.GRISES</button>
+                <button id="espejo">ESPEJO</button>
+                <br>
+                <br>
+                <button id="invertir">INVERTIR</button>
+                <button id="negativo">NEGATIVO</button>
+                <button id="vintage">VINTAGE</button>
+                <br>
+                <div id="controls">
+                    <p><b>Rojo</b></p>
+                    <input type="range" id="rojo" min="0" max="255" value="255">
+                    <p id="range_rojo">255</p>
+                    <p><b>Verde</b></p>
+                    <input type="range" id="verde" min="0" max="255" value="255">
+                    <p id="range_verde">255</p>
+                    <p><b>Azul</b></p>
+                    <input type="range" id="azul" min="0" max="255" value="255">
+                    <p id="range_azul">255</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
