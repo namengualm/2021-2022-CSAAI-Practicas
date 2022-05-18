@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+#titulo{
+    text-align: center;
+    color: black;
+    margin-left: 80px;
+    margin-right: 170px;
+    padding: 5px;
+    font-size: 40px;
+}
+
+#video1{
+    margin-left: 450px;
+}
+
+#video2{
+    margin-left: 350px;
+}
+
+#camara1{
+    margin-left: 410px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 80%;
+}
+
+#camara2{
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 80%;
+}
+
+#camara3{
+    margin-left: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 80%;
+}
+
+#btn_src_on{
+    margin-left: 420px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 80%;
+}
+
+#btn_src_off{
+    margin-left: 130px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 80%;
+}
+
+#btn_src_test{
+    margin-left: 140px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    font-size: 80%;
+}

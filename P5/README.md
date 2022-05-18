@@ -1,1 +1,5 @@
  # Práctica 5
+
+Bienvenid@ a la realización de Tv que he aplicado y realizado. Podemos observar tres cámaras desde diferentes puntos de tiros grabando la misma acción. Para la ejecución de prueba de ambas cámaras de visualización del vídeo tienen su propio botón.  Seguidamente podemos observar otros tres botones más que son el de encendido y apagado de las fuentes de vídeo y el botón de test. 
+
+Para poder hacer uso del programa de realización de tv, primero deberas encender las fuentes de la imagen haciendo click en el botón de "SRC ON" y observarás como los videos en cuestión de segundos van aparenciendo en sus respectivos encuadrados. También comprobarás que el cuadro principal sigue con la imagen de barras, eso está programado para que juegues con las diferentes cámaras para su posterior visualización en la ventana/cuadro principal. Podrás ir probando con los diferentes botones y las diferentes cámaras para ver el resultado de realización de TV.
